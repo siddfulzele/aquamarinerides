@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aqua Marine Rides</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="icon" type="image/x-icon" href="assets/logo-short.png">
+</head>
+<style>
+    .carousel .carousel-item {
+        height: 500px;
+    }
+
+    .carousel-item img {
+        position: absolute;
+        object-fit: fill;
+        top: 0;
+        left: 0;
+        min-height: 500px;
+    }
+
+    iframe, object, embed{
+        max-width: 100%;
+    }
+</style>
+<body data-bs-spy="scroll">
+
+    <!-- Navbar -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <div>
+                <a class="navbar-brand" href="#home">
+                    <img src="assets/logo-short.png" alt="Logo" height="55">
+                </a>
+            </div>
+            <a class="navbar-brand" href="#" >Aqua Marine Rides</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#packages">Packages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <div id="home" class="bg-dark text-white text-center" style="background-image: url('assets/sea.gif'); background-size: cover;">
+        <div class="container py-5">
+            <div id="carouselExampleControlsNoTouching" class="carousel slide w-100" data-bs-touch="false">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="assets/4.jpg" class="d-block w-100 rounded" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/2.jpg" class="d-block w-100 rounded" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/3.jpg" class="d-block w-100 rounded" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <section id="about" class="py-5 text-center">
+        <div class="container">
+            <h2 class="display-5">Why Choose Us?</h2>
+            <p class="lead">At Sea Sailing Adventures, we offer luxury, privacy, and unforgettable experiences on the water. Whether you're looking for a romantic getaway or a fun-filled party with friends, we have packages to suit your needs.</p>
+            <p>Our crew is highly trained and ready to ensure you have the most enjoyable and safe sailing experience. From sunset dinners to on-deck parties, let us take care of the details while you relax and enjoy the ocean breeze.</p>
+        </div>
+    </section>
+
+    <!-- Packages Section -->
+    <section id="packages" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Our Exclusive Packages</h2>
+            <div class="row">
+                <!-- Weekend Package 2 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="assets/PKG_1.jpeg" class="card-img-top" alt="Weekend Sailing">
+                        <div class="card-body">
+                            <h5 class="card-title">Romantic Weekend Getaway - 2 People</h5>
+                            <p class="card-text">Perfect for couples, this package includes two nights of luxury sailing, romantic sunset dinners, and personalized service. Enjoy private moments on deck or a cozy cabin under the stars.</p>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Starting price : <b>₹4000</b></li>
+                                <li class="list-group-item">Available days : <b>All days of the week</b></li>
+                            </ul>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a href="https://api.whatsapp.com/send/?phone=8108612754&text&type=phone_number&app_absent=0" class="btn btn-primary"><i class="bi bi-whatsapp m-2"></i>Book Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Weekday Package 4-->
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="assets/PKG-4.jpeg" class="card-img-top" alt="Weekday Sailing">
+                        <div class="card-body">
+                            <h5 class="card-title">Romantic Weekend Getaway - 4 People</h5>
+                            <p class="card-text">Escape the hustle and bustle with our weekday sailing package. Spend a day or two on the water, basking in the sun and enjoying the tranquility of the sea. Includes gourmet meals and beverages.</p>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Starting price : <b>₹4500</b></li>
+                                <li class="list-group-item">Available days : <b>All days of the week</b></li>
+                            </ul>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a href="https://api.whatsapp.com/send/?phone=8108612754&text&type=phone_number&app_absent=0" class="btn btn-primary"><i class="bi bi-whatsapp m-2"></i>Book Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Weekday Package 6-->
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="assets/PKG-2.jpeg" class="card-img-top" alt="Weekday Sailing">
+                        <div class="card-body">
+                            <h5 class="card-title">Romantic Weekend Getaway - 6 People</h5>
+                            <p class="card-text">Escape the hustle and bustle with our weekday sailing package. Spend a day or two on the water, basking in the sun and enjoying the tranquility of the sea. Includes gourmet meals and beverages.</p>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Starting price : <b>₹6000</b></li> 
+                                <li class="list-group-item">Available days : <b>All days of the week</b></li>                               
+                            </ul>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a href="https://api.whatsapp.com/send/?phone=8108612754&text&type=phone_number&app_absent=0" class="btn btn-primary"><i class="bi bi-whatsapp m-2"></i>Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+            <br>
+            <div class="row">
+                <!-- Weekend Package 2 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="assets/PLAVAKA-3.jpg" class="card-img-top" alt="Weekend Sailing">
+                        <div class="card-body">
+                            <h5 class="card-title">Plavaka Romantic Getaway - 2 People</h5>
+                            <p class="card-text">This exclusive couples' package offers a romantic getaway focused on privacy and intimacy. Indulge in luxurious sailing, breathtaking sunset views, and personalized service crafted just for you. Share private moments on deck or cozy up in your cabin for stargazing under the stars. With options for intimate dinners and peaceful relaxation, this retreat is ideal for couples seeking to strengthen their bond and create lasting memories together!</p>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Starting price : <b>₹4000</b></li>
+                                <li class="list-group-item">Available days : <b>All days of the week</b></li>
+                            </ul>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a href="https://api.whatsapp.com/send/?phone=8108612754&text&type=phone_number&app_absent=0" class="btn btn-primary"><i class="bi bi-whatsapp m-2"></i>Book Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Weekday Package 4-->
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="assets/PLAVAKA-4.jpg" class="card-img-top" alt="Weekday Sailing">
+                        <div class="card-body">
+                            <h5 class="card-title">Plavaka Friends Getaway - 4 People</h5>
+                            <p class="card-text">Ideal for groups of four, this package offers an unforgettable experience on the water. Delight in thrilling sailing adventures, stunning sunset views, and personalized service tailored to your group. Share laughs and make memories over deck games or unwind in the comfortable lounge areas. Blending adventure with relaxation, this getaway is perfect for friends wanting to strengthen their bonds and enjoy quality time together!</p>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Starting price : <b>₹4500</b></li>
+                                <li class="list-group-item">Available days : <b>All days of the week</b></li>
+                            </ul>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a href="https://api.whatsapp.com/send/?phone=8108612754&text&type=phone_number&app_absent=0" class="btn btn-primary"><i class="bi bi-whatsapp m-2"></i>Book Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Weekday Package 6-->
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="assets/PLAVAKA-1.jpg" class="card-img-top" alt="Weekday Sailing">
+                        <div class="card-body">
+                            <h5 class="card-title">Plavaka Family Getaway - 6 People</h5>
+                            <p class="card-text">Perfect for groups of six, this package promises a thrilling adventure on the water. Enjoy exciting sailing excursions, vibrant sunsets, and personalized service to make your trip unforgettable. Share laughter and friendly competition with games on deck, or relax in spacious lounge areas. Offering the ideal balance of exploration and relaxation, this getaway is designed for friends seeking to create lasting memories together!</p>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Starting price : <b>₹6000</b></li> 
+                                <li class="list-group-item">Available days : <b>All days of the week</b></li>                               
+                            </ul>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a href="https://api.whatsapp.com/send/?phone=8108612754&text&type=phone_number&app_absent=0" class="btn btn-primary"><i class="bi bi-whatsapp m-2"></i>Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Additional Information -->
+            <div class="row mt-4">
+                <div class="col-md-6">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Special Add-Ons</h5>
+                            <p class="card-text">Make your sailing experience even more memorable with our add-ons, including professional photography, and private water sports sessions.</p>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Photography: ₹200</li>
+                                <li class="list-group-item">Cake: ₹200</li>                                
+                                <li class="list-group-item">Fruit Chempagne: ₹1500</li>                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Safety & Amenities</h5>
+                            <p class="card-text">Your safety is our priority. Our yachts are equipped with the latest safety gear and professional crews. Open deck yacht with comfortable seating space.</p>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">1 hour 30 minutes private sailing on a seabird sailboat with a qualified sailor</li>
+                                <li class="list-group-item">Safety Equipment: Life Jackets, Flares, Radio Communication</li>
+                                <li class="list-group-item">Motorboat ride from the sailboat to the shore</li>                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 text-white" style="background-color: #2c3e50;">
+        <div class="container-fluid">
+            <h2 class="text-center mb-4">Get In Touch!</h2>
+            <div class="row m-2">
+                <div class="col-md-6" >
+                    <div class="m-3 fs-4 me-5">
+                        <h3>Address </h3>
+                        <p>Jetty No. 5, Opposite Main Entrance of Taj Hotel,<br>
+                            Near Gateway of India, Colaba, Mumbai – 400 001</p>
+                    </div>                    
+                    <div class="m-3 fs-4">                        
+                        <i class="bi bi-telephone me-1"></i> +91 8108612754 &nbsp&nbsp <i class="bi bi-telephone me-1"></i> +91 97691 98616  <br><br>
+                        
+                        <i class="bi bi-envelope-at me-1"></i> support@aquamarinerides.com<br><br>
+                    </div>
+                    <div class="m-3">
+                        <a href="https://api.whatsapp.com/send/?phone=8108612754&text&type=phone_number&app_absent=0" class="btn btn-success w-100 fs-4"><i class="bi bi-whatsapp m-2"></i>Get in Touch!!</a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="m-2">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4319.704068870798!2d72.83207937567155!3d18.921989156788513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7d1c73a0d5cad%3A0xc70a25a7209c733c!2sGateway%20Of%20India%20Mumbai!5e1!3m2!1sen!2sin!4v1728476184494!5m2!1sen!2sin" width="700" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4 text-center text-white bg-dark">
+        <p>&copy; 2024 Aqua Marine Rides | All Rights Reserved</p>
+        <p>Follow us on <a href="#" class="text-white">Instagram</a> | <a href="#" class="text-white">Facebook</a></p>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
